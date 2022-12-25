@@ -1,0 +1,25 @@
+#indexBody{
+    padding: 0%;
+    margin: auto;
+    max-width: 800px;
+    background-color: black;
+    background-image: url(indexhatter.jpg) ;
+    background-repeat: no-repeat;
+    border-image-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#indexul{
+    
+  padding-top: 300px;
+}
+.indexli{
+    list-style-type: none;
+    text-align: center;
+    height: auto;
+    width: auto;
+    font-size: xx-large;
+    color: blueviolet;
+    
+}
