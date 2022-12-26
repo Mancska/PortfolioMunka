@@ -23,4 +23,62 @@
     color: blueviolet;
 
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
+.dropdown-content {
+
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.menu{
+  list-style-type: none;
+  font-weight: bold;
+ 
+}
+#abBody{
+  padding: 0%;
+  margin: auto;
+  display: grid;
+  grid-template-areas:
+  "h h"
+  "a as"
+  "f f"
+  ;
+  background: grey;
+}
+#ab_kep{
+
+  grid-area: as;
+}
+img{
+  max-width: 400px;
+  width: 100%;
+
+}
+#ab_header{
+  grid-area: h;
+  margin: 20px;
+
+}
+#ab_article{
+  grid-area: a;
+  border: 1px black dotted;
+
+}
+#ab_footer{
+  
+grid-area: f;
+border: 3px solid black;
+}
