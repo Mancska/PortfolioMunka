@@ -56,7 +56,7 @@
   "a as"
   "f f"
   ;
-  background: grey;
+  background: bisque;
 }
 #ab_kep{
 
@@ -81,4 +81,20 @@ img{
   
 grid-area: f;
 border: 3px solid black;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid black;
+}
+body{
+  background-color: bisque;
+}
+h3{
+  padding: 10px;
 }
