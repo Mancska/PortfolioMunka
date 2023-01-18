@@ -51,6 +51,13 @@ p{
   font-weight: bold;
  
 }
+ul li {
+  list-style-type:none ;
+}
+.icon{
+  max-width: 200px;
+  width: 100%;
+}
 #abBody{
   padding: 0%;
   margin: auto;
