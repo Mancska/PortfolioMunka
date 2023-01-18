@@ -108,17 +108,17 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: green;
+  color: rgb(204, 6, 155);
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: rgb(139, 48, 48);
 }
 
 
 a:active {
-  color: blue;
+  color: rgb(216, 4, 4);
 }
 .video-container{
   width: 100%;
